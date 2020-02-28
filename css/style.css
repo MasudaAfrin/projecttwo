@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.logo{
+	flex-basis: 30%;
+	max-width: 30%;
+}
+nav{
+	 flex-basis: 70%;
+     max-width: 70%;
+}
+nav ul{
+   display: flex;
+   padding: 25px 0 20px;
+   justify-content: flex-end;
+}
+nav ul li{
+	list-style: none;
+	padding: 0 10px;
+}
+nav ul li a{
+	text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: red;
+}
+.section_one{
+	background-image: url(../img/first.jpg);
+	padding: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top; 
+}
+.section_two{
+    background-image: url(../img/second.jpg);
+	padding: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top; 
+}
+.section_three{
+	background-image: url(../img/third.jpg);
+	padding: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top; 
+
+}
+.section_four{
+	background-image: url(../img/fifth.jpg);
+	padding: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top; 
+
+}
+.section_five{
+	background-image: url(../img/six.jpg);
+	padding: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top; 
+
+}
+.section_six{
+	background-image: url(../img/sev.jpg);
+	padding: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top; 
+
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    max-width: 900px;
+    margin: auto;
+    background:#b12626d1;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+	padding: 30px;
+	background-color: #eee;
+	text-align: center;
+}
+footer p{
+	color: #4a473fd4;
+    font-size: 16px;
+    font-weight: 550;
+}
